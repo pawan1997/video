@@ -1,14 +1,14 @@
 import React from 'react';
 import { Series } from 'remotion';
 import { z } from 'zod';
-import { topmateRecapSchema } from '../types';
-import { IntroScene } from './scenes/IntroScene';
-import { StatsScene } from './scenes/StatsScene';
-import { StarPerformerScene } from './scenes/StarPerformerScene';
-import { EliteStatusScene } from './scenes/EliteStatusScene';
-import { TestimonialScene } from './scenes/TestimonialScene';
-import { TrophyScene } from './scenes/TrophyScene';
-import { OutroScene } from './scenes/OutroScene';
+import { topmateRecapSchema } from './types';
+import { IntroScene } from './remotion/scenes/IntroScene';
+import { StatsScene } from './remotion/scenes/StatsScene';
+import { StarPerformerScene } from './remotion/scenes/StarPerformerScene';
+import { EliteStatusScene } from './remotion/scenes/EliteStatusScene';
+import { TestimonialScene } from './remotion/scenes/TestimonialScene';
+import { TrophyScene } from './remotion/scenes/TrophyScene';
+import { OutroScene } from './remotion/scenes/OutroScene';
 
 export const Main: React.FC<z.infer<typeof topmateRecapSchema>> = (props) => {
   return (
