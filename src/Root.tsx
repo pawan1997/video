@@ -1,4 +1,3 @@
-import React from 'react';
 import { Composition } from 'remotion';
 import { Main } from './remotion/Video';
 import { topmateRecapSchema } from './types';
@@ -26,6 +25,9 @@ const myTestData = {
 };
 
 export const RemotionRoot: React.FC = () => {
+  // Calculate total duration based on scenes
+  // Intro: 90 + Stats: 120 + StarPerformer: 150 + Elite: 120 + 
+  // Testimonial: 180 + Trophy: 150 + Outro: 120 = 930 frames
   const totalDuration = 930;
 
   return (
