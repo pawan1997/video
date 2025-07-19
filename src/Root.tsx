@@ -1,6 +1,6 @@
 import React from 'react';
 import { Composition } from 'remotion';
-import { Main } from './Video';
+import { Main } from './remotion/Video';
 import { topmateRecapSchema } from './types';
 
 // Test data for development
