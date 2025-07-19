@@ -1,7 +1,7 @@
 import React from 'react';
 import { AbsoluteFill, Sequence } from 'remotion';
 import { Badge } from '../components/Badge';
-import { TopmateRecapProps } from '../../types';
+import { TopmateRecapProps } from '../../types'; 
 
 interface TrophySceneProps {
   badges: TopmateRecapProps['badges'];
