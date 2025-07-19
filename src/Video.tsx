@@ -1,5 +1,5 @@
 import React from 'react';
-import { Series } from 'remotion';
+import { Series } from 'remotion'; 
 import { z } from 'zod';
 import { topmateRecapSchema } from '../types';
 import { IntroScene } from './scenes/IntroScene';
