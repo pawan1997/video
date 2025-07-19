@@ -1,5 +1,5 @@
 import { Composition } from 'remotion';
-import { Main } from './Video';
+import { Main } from './video';
 import { topmateRecapSchema } from './types';
 
 // Test data for development
